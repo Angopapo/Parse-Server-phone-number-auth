@@ -13,7 +13,8 @@ An module to login users in parse server with phone numbers using AccountKit.
 5. Edit index.js file like this
   eg. $ vi index.js or you can edit with your favorite editor
 
-6. Edit the index.js file in parse-server-example and configure ParseServer with oauth, you can find this in parse server docs
+6. Edit the index.js file in parse-server-example and configure ParseServer with oauth, 
+     you can find this in parse server docs https://github.com/ParsePlatform/parse-server/wiki/OAuth
 
     oauth: {
       accountkit: {
