@@ -16,6 +16,9 @@ An module to login users in parse server with phone numbers using Facebook Accou
 6. Edit the index.js file in parse-server-example and configure ParseServer with oauth, 
      you can find this in parse server docs https://github.com/ParsePlatform/parse-server/wiki/OAuth
      
+     Make sure to setup the twitter oauth when starting your parse server:
+
+```js
      var api = new ParseServer({
     ...
     oauth: {
@@ -28,6 +31,7 @@ An module to login users in parse server with phone numbers using Facebook Accou
         }
     }
 });
+```
 
   
 ## Get YOUR_APP_SECRET (Facebook AccountKit Web site)
