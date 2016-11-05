@@ -1,0 +1,30 @@
+{
+  "name": "Parse-Server-phone-number-auth",
+  "version": "1.0.0",
+  "description": "An module to login users in parse server with phone numbers using AccountKit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://maravilhosinga@github.com/maravilhosinga/parse-server-accountkit-auth.git"
+  },
+  "keywords": [
+    "parse-server",
+    "account",
+    "account",
+    "kit",
+    "kit",
+    "auth",
+    "authentication",
+    "parse",
+    "accountkit"
+  ],
+  "author": "Maravilho Singa <maravilhosinga@gmail.com>",
+  "license": "EPL-1.0",
+  "bugs": {
+    "url": "https://github.com/maravilhosinga/Parse-Server-phone-number-auth/issues"
+  },
+  "homepage": "https://github.com/maravilhosinga/Parse-Server-phone-number-auth"
+}
