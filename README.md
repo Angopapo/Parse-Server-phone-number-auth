@@ -5,7 +5,7 @@ An module to login users in parse server with phone numbers using Facebook Accou
 1. Open tour SSH client and enter your credentials
 2. Go to your Parse-server-exemple folder and run
    eg. $ cd /home/demo/parse-server-exemple
-3. $ sudo npm install Parse-Server-phone-number-auth
+3. $ npm install -S Parse-Server-phone-number-auth
 
 ## Setup (Server Inside)
 4. Go to your Parse Server Example index.js file
