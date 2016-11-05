@@ -1,5 +1,5 @@
 # Parse-Server-phone-number-auth
-An module to login users in parse server with phone numbers using AccountKit.
+An module to login users in parse server with phone numbers using Facebook AccountKit.
 
 ## Install (Server Inside)
 1. Open tour SSH client and enter your credentials
