@@ -1,6 +1,6 @@
 {
   "name": "Parse-Server-phone-number-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An module to login users in parse server with phone numbers using Facebook AccountKit.",
   "main": "index.js",
   "scripts": {
