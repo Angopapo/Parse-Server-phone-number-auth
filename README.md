@@ -19,7 +19,7 @@ An module to login users in parse server with phone numbers using Facebook Accou
      Make sure to setup the twitter oauth when starting your parse server:
 
 ```js
-     var api = new ParseServer({
+var api = new ParseServer({
     ...
     oauth: {
         accountkit: {
