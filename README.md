@@ -45,14 +45,14 @@ var api = new ParseServer({
 
 ## Android inside
 
-1. Go to...
+1. Go to this link https://codecanyon.net/item/parse-phone-auth-login-parse-server-users-by-phone-numbers/18759283/
 
 ## iOS inside
 
-1. Go to...
+1. Soon...
 ## Web inside
 
-1. Go to...
+1. Soon...
 
 Note. Ww will update this repo as soon possible.
  
