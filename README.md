@@ -1,17 +1,23 @@
 # Parse-Server-phone-number-auth
 An module to login users in parse server with phone numbers using Facebook AccountKit.
 
-## Install (Server Inside)
+## Install Module (Server Side)
 1. Open tour SSH client and enter your credentials
 2. Go to your Parse-server-exemple folder and run
    eg. $ cd /home/demo/parse-server-exemple
-3. $ npm install -S Parse-Server-phone-number-auth
+3.
+```js
+npm install -S Parse-Server-phone-number-auth
+```
 
-## Setup (Server Inside)
+## Setup (Server Side)
 4. Go to your Parse Server Example index.js file
-  eg. $ cd /home/demo/parse-server-exemple
+  eg. 
+  ```js
+$ cd /home/demo/parse-server-exemple
+```
 5. Edit index.js file like this
-  eg. $ vi index.js or you can edit with your favorite editor
+  eg. $ vi index.js or you can edit with your favorite editor like nano
 
 6. Edit the index.js file in parse-server-example and configure ParseServer with oauth, 
      you can find this in parse server docs https://github.com/ParsePlatform/parse-server/wiki/OAuth
@@ -21,7 +27,7 @@ An module to login users in parse server with phone numbers using Facebook Accou
 ```js
 var api = new ParseServer({
     ...
-    oauth: {
+    auth: {
         accountkit: {
             module: 'Parse-Server-phone-number-auth',
             appSecret: 'YOUR_APP_SECRET'
@@ -43,14 +49,14 @@ var api = new ParseServer({
    eg. https://developers.facebook.com/apps/XXXXXXXX/account-kit/    (XXXXXXXX is your Facebook App ID)
 9. Click on SHOW AccountKit Secret, copy and paste in step 6.
 
-## Android inside
+## Cliente Side (Android)
 
 1. Go to this link https://codecanyon.net/item/parse-phone-auth-login-parse-server-users-by-phone-numbers/18759283/
 
-## iOS inside
+## Cliente Side (iOS)
 
 1. Soon...
-## Web inside
+## Cliente Side (Web)
 
 1. Soon...
 
